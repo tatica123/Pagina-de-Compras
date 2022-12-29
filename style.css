@@ -72,3 +72,75 @@ body{
     margin-top: 14px;
     margin-bottom: 30px;
 }
+/* Menu grande */
+.menu-big{
+    padding: 24px;
+}
+.menu-big a{
+    text-decoration: none;
+    color: #04B486;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu-big ul{
+    padding: 0;
+    margin: 24 0 0;
+    list-style: none;
+}
+.menu-big ul:nth-child(1){
+    border-bottom: 1px solid #c7c7c7;
+}
+.menu-big ul:nth-child(3){
+    position: absolute;
+    bottom: 0;
+}
+.menu-big ul li{
+    margin-bottom: 24px;
+}
+.email{
+    font-size: 16px;
+    font-weight: 300 !important;
+}
+.sign-out{
+    font-size: 16px;
+    color: cyan;
+}
+/* Menu chico */
+.menu-chico{
+    width: 100px;
+    height: auto;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+.menu-chico:hover{
+    background-color: #E6F8E0;
+    
+}
+.menu-chico ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-chico ul li {
+    text-align: end;
+}
+.menu-chico ul li:last-child(1), .menu-chico ul li:last-child(2){
+    font-weight: bold;
+} 
+.menu-chico ul li:last-child{
+    padding-top: 20px;
+    border-top: 1px solid #c7c7c7;
+}
+.menu-chico ul li:last-child a{
+    color: #04B486;
+    font-size: 16px;
+}
+.menu-chico ul li a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}

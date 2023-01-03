@@ -1,8 +1,4 @@
-:root{
-    --green:#86B404;
-    --lightgreen: #f8fBEF;
-    --greencaja:#99CC00;
-}
+
 body{
     margin: 0;
     font-family: 'Quicksand' sans-serif;
@@ -143,4 +139,65 @@ body{
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;
+}
+/* menu-cabecera  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid #5f8404;
+    background-color: #CEF6CE;
+    
+}
+nav .nav__ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav__ul li a{
+    text-decoration: none;
+    padding: 14px;
+    color: darkgreen;
+    border-radius: 8px;
+}
+.nav__ul li a:hover{
+    color: black;
+    background-color: #99CC00;
+    cursor: pointer;
+}
+.navbar-right ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.navbar-email{
+    color: darkgreen;
+    font-size: 14px;
+    margin-right: 12px;
+}
+.navbar-email:hover{
+    background-color: #99CC00;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+.navbar-shopping{
+    position: relative;
+}
+.navbar-shopping div{
+    width: 16px;
+    height: 16px;
+    background-color: #ACD9B2;
+    border-radius: 50%;
+    font-size: 14PX;
+    font-weight: bold;
+    position: absolute;
+    top: -6PX;
+    right: -3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

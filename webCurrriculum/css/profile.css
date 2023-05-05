@@ -28,7 +28,7 @@
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     margin-left: 200px;
-    
+    margin-bottom: 20px;
 }
 .profile-details{
     font-size: 18px;
@@ -47,6 +47,7 @@
     border-radius: 7px;
     cursor: pointer;
     margin-left: 200px;
+    margin-top: 20px;
 }
 .profile-btn:hover{
     filter: brightness(130%);

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/experiences.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script defer src="js/app.js"></script>
 
 </head>
@@ -96,8 +97,64 @@
             </ul>
         </section>
     </div>
-    <section class="contact vertical-padding" id="contact">
-        <h2 class="contact-title">Contacto</h2>
-    </section>
+    <!-- seccion de contacto -->
+    <div class="horizontal-padding vertical-padding">
+        <section class="contacto" id="contacto">
+          <h2 class="contact-title">Contacto</h2>
+          <div class="contact-details">
+            <div class="contact-details-group">
+              <p class="contact-label">Dirección:</p>
+              <p class="contact-text">Santiago, Chile</p>
+            </div>
+            <div class="contact-details-group">
+              <p class="contact-label">Email:</p >
+              <p class="contact-text">tatiana22-munoz@hotmail.com</p>
+            </div>
+            <div class="contact-details-group">
+              <p class="contacto-texto">Deje su mensaje y con gusto le responderé</p>
+            </div>
+          </div>
+          <form class="contact-form" name="contact" netlify >
+            <div class="contact-form-group">
+              <label for="nombre">Nombre</label >
+              <input required type="text" name="name" id="name" />
+            </div>
+            <div class="contact-form-group">
+              <label for="email">Email</label >
+              <input required type="email" name="email" id="email" />
+            </div>
+            <div class="contact-form-group">
+              <label for="message">Mensaje</label >
+              <textarea required name="message" id="message" rows="6"></textarea>
+            </div>
+  
+            <button type="submit" class="contact-form-submit">Enviar</button >
+          </form>
+          <nav class="social">
+            <ul class="social-list">
+              <li>
+                <a href="https://twitter.com/ymulenll">
+                  <img src="img/social/twitter.svg" alt="perfil de twitter" />
+                </ul>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/yoelvism" class="social-link"><img src="img/social/youtube.svg" alt="perfil de youtube"/></a>
+              </li>
+              <li>
+                <a href="https://github.com/tatica123" class="social-link">
+                  <img src="img/social/github.svg" alt="perfil de github"/>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/yoelvismulen"
+                  class="enlace social">
+                  <img src="img/social/linkedin.svg" alt="perfil de linkedin"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </sección>
+      </div>   
 </body>
 </html>

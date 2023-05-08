@@ -114,4 +114,5 @@ button img{
     .menu a.selected{
         color: var(--secondary-color);
     }
+    
 }

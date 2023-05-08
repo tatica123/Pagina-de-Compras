@@ -1,0 +1,46 @@
+.contact{
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    font-size: 18px;
+    border-radius: 14px;
+    padding: 25px;
+
+    display: grid;
+    gap: 25px;
+}
+.contact p,
+.contact h2,
+.contact ul{
+    margin: 0;
+    padding: 0;
+}
+.contact-title{
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-details,
+.contact-form{
+    display: grid;
+    gap: 20px;
+}
+.contact-details-group,
+.contact-form-group {
+    display: grid;
+    grid-area: 3px;
+}
+.contact-label{
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.contact-form input,
+.contact-form text{
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+}
+.contact-form textarea{
+    height: auto;
+}

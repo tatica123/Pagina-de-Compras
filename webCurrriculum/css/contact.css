@@ -48,7 +48,7 @@
 .contact-form-submit{
     width: 100%;
     height: 50px;
-    background-color: var(--text-color);
+    background-color: rgb(108, 150, 248);
     border-radius: 7px;
     color: var(--text-color-inverse);
     border: 1px solid var(--theme-color);

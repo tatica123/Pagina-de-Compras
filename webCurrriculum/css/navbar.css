@@ -1,6 +1,6 @@
 /* seccion del navbar */
 .topheader{
-    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    box-shadow: 0 4px 5px rgb(208, 0, 255);
     position: fixed;
     background-color: var(--theme-color);
     left: 0;
@@ -68,6 +68,9 @@ button img{
     width: 50px;
 }
 @media (max-width: 950px){
+    .topheader{
+        box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    }
     .menu{
         flex-direction: column;
         position: fixed;
